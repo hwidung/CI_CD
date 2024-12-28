@@ -9,6 +9,7 @@ class LoginViewModel : ViewModel() {
     private val _username = MutableStateFlow("")
     val username: StateFlow<String> = _username
 
+
     private val _password = MutableStateFlow("")
     val password: StateFlow<String> = _password
 
